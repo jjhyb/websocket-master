@@ -1,0 +1,15 @@
+# 端口
+server:
+  port: 8080
+# rabbitmq
+spring:
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+
+# debug 日志
+logging:
+  level:
+    zh:
+      cn: debug
